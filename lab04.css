@@ -29,17 +29,11 @@ h1, h2, h3 {
 }
 
 /*boarder style*/
-table {
+table, th, td {
     border: 1px solid black;
+    margin: 1px;
 }
 
-thead {
-    border: 1px solid black;
-}
-
-tbody {
-    border: 1px solid black;
-}
 
 /* Image ID Selector editing */
 #images {
@@ -61,3 +55,15 @@ tbody {
 .months {
     text-align: right;
 }
+
+/* Navigation */
+ nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+ }
+
+ /* Aside and border colors */
+ aside:hover {
+    color:lightblue;
+ }
